@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #eceee9;
+    color: #2d3436;
+}
+
+header {
+    background-color: #1b4d3e;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero-container {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-left: 5px solid #1b4d3e;
+}
+
+#fun-facts {
+    margin-top: 40px;
+    text-align: center;
+    background: #d1e7dd;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#fact-display {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+button {
+    background-color: #1b4d3e;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #14392e;
+}
