@@ -1,7 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>My First Heading</h1>
-        <p>My first paragraph.</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gorilla Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The World of Gorillas</h1>
+        <p>Majestic, Intelligent, and Endangered</p>
+    </header>
+
+    <div class="hero-container">
+        <img src="images/gorilla-main.jpg" alt="A powerful Silverback Gorilla" class="hero-image">
+    </div>
+
+    <main>
+        <section id="info">
+            <h2>About These Giants</h2>
+            <p>Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit the tropical forests of equatorial Africa. They share about 98% of their DNA with humans!</p>
+            
+            <h3>Physical Characteristics</h3>
+            <div class="stats-grid">
+                <div class="stat-card"><strong>Height:</strong> 4 - 6 feet</div>
+                <div class="stat-card"><strong>Weight:</strong> 300 - 500 lbs</div>
+                <div class="stat-card"><strong>Lifespan:</strong> 35 - 40 years</div>
+            </div>
+        </section>
+
+        <section id="fun-facts">
+            <h2>Interactive Facts</h2>
+            <div id="fact-display">Click the button to learn something amazing!</div>
+            <button id="fact-btn">Get a Fun Fact</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
 </html>
